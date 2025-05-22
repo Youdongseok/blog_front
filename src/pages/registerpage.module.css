@@ -1,0 +1,44 @@
+.container {
+  width: calc(100% - 2em);
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.container input {
+  padding: 1em;
+  border-radius: 0.25em;
+  border: 1px solid lightblue;
+  outline: none;
+}
+.container input:focus {
+  background-color: lightblue;
+}
+.container strong {
+  font-weight: normal;
+  font-size: 0.75em;
+}
+.container button {
+  padding: 1em;
+  background-color: lightskyblue;
+  border-radius: 1em;
+  align-self: center;
+}
+
+.container strong {
+  color: red;
+  font-size: 0.75em;
+  padding: 0 0.25rem;
+}
+
+.socialLogin {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.socialLogin p {
+  margin-bottom: 1rem;
+  color: #666;
+}
