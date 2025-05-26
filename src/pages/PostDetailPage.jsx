@@ -52,10 +52,10 @@ export const PostDetailPage = () => {
     <main className={css.postdetailpage}>
       <h2>블로그 상세 페이지</h2>
       <section>
-        <h3>{postInfo?.title}</h3>
         <div className={css.detailimg}>
           <img src={`${import.meta.env.VITE_BACK_URL}/${postInfo?.cover}`} alt="" />
         </div>
+        <h3>{postInfo?.title}</h3>
         <div className={css.info}>
           <p className={css.author}>
             <Link to={`/userpage/${postInfo?.author}`}>{postInfo?.author}</Link>
