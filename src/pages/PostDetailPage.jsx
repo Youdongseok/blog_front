@@ -55,7 +55,7 @@ export const PostDetailPage = () => {
         <div className={css.detailimg}>
           <img src={`${import.meta.env.VITE_BACK_URL}/${postInfo?.cover}`} alt="" />
         </div>
-        <h3>{postInfo?.title}</h3>
+
         <div className={css.info}>
           <p className={css.author}>
             <Link to={`/userpage/${postInfo?.author}`}>{postInfo?.author}</Link>
