@@ -88,3 +88,7 @@
 .author:hover {
   color: rgb(1, 75, 148);
 }
+
+h3 {
+  background: none;
+}
