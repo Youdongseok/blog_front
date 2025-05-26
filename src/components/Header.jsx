@@ -51,7 +51,7 @@ export const Header = () => {
     return (
       <header className={css.header}>
         <h1>
-          <Link to={'/'}>TOKTOKLOG</Link>
+          <Link to={'/'}>dongdongBlog</Link>
         </h1>
         <div>로딩 중...</div>
       </header>
