@@ -105,7 +105,6 @@ export const CreatePost = () => {
         <button type="submit" disabled={isSubmitting}>
           {isSubmitting ? '등록중...' : '등록'}
         </button>
-        <div>test</div>
       </form>
     </main>
   )
